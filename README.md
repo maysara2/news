@@ -1,27 +1,23 @@
-# Blog (Multilanguage) with Laravel 9 Youtube Course!
+# LARAVEL10-DASHBOARD
 
-في هذه السلسلسة من الدروس سنقوم بشرح كيفية انشاء مدونة أو موقع اخباري متعدد اللغات بواسطة 
-Laravel 9 
-وسنتناول في هذه السلسلة شرح : 
+# How Install Project
 
-- Laravel migration 
-- Laravel MVC 
-- Multilanguage with `astrotomic/laravel-translatable` Library
-- Upload images with Laravel
-- Yajra Datatables
-- .......etc 
+1-composer install
 
+2-Please clone .env.example and copied file name change from .env.example to .env
 
-# Branches
+3-Create a clean db table
 
-كل سلسلة او درس من الدروس سيكون في 
-branch 
-خاص به لسهولة الوصول الى الكود بشكل مفصل لكل حلقة 
+4- Set database infos in the .env
 
-# Youtube Channel 
-- [كورس إنشاء مدونة - موقع اخباري متعدد اللغات بواسطة اطار عمل لارفل - creating blog with php laravel multilanguage - YouTube](https://www.youtube.com/playlist?list=PLf5ATZslqO1cIRQXgUR86U5kVftk7ZjVA)
+5-php artisan migrate 
 
+6-php artisan key:generate
 
-14 - انشاء مستخدم جديد
-15 - تشفير باسورد اليوزر 
-16 - انشاء أقسام رئيسية وفرعية وربطها ببعض
+7-php artisan serve
+
+8-http://127.0.0.1:8000/en/admin
+
+# Contact With Me
+
+[Email](mailto:m.maysara.aljayyar@gmail.com)
